@@ -7,9 +7,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/blobstore"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
-	fakeuuid "github.com/cloudfoundry/bosh-utils/uuid/fakes"
+	. "github.com/EngineerBetter/bosh-utils/blobstore"
+	fakesys "github.com/EngineerBetter/bosh-utils/system/fakes"
+	fakeuuid "github.com/EngineerBetter/bosh-utils/uuid/fakes"
 )
 
 var _ = Describe("localBlobstore", func() {

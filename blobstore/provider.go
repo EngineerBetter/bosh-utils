@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"path"
 
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	"github.com/cloudfoundry/bosh-utils/system"
-	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
+	boshcrypto "github.com/EngineerBetter/bosh-utils/crypto"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	"github.com/EngineerBetter/bosh-utils/system"
+	boshuuid "github.com/EngineerBetter/bosh-utils/uuid"
 )
 
 const (

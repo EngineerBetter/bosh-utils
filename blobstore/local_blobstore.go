@@ -4,9 +4,9 @@ import (
 	"os"
 	"path"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
+	boshuuid "github.com/EngineerBetter/bosh-utils/uuid"
 )
 
 const (

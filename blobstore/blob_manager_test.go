@@ -6,11 +6,11 @@ import (
 	"os"
 	"path/filepath"
 
-	. "github.com/cloudfoundry/bosh-utils/blobstore"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	boshsysfake "github.com/cloudfoundry/bosh-utils/system/fakes"
+	. "github.com/EngineerBetter/bosh-utils/blobstore"
+	boshcrypto "github.com/EngineerBetter/bosh-utils/crypto"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
+	boshsysfake "github.com/EngineerBetter/bosh-utils/system/fakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

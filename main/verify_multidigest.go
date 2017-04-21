@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	boshcrypto "github.com/EngineerBetter/bosh-utils/crypto"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
 	"github.com/jessevdk/go-flags"
 	"os"
 	"strings"

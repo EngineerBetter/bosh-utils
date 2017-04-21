@@ -9,9 +9,9 @@ import (
 	"errors"
 	"io"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshuuid "github.com/EngineerBetter/bosh-utils/uuid"
 )
 
 type RequestRetryable interface {

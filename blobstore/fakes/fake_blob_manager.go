@@ -5,9 +5,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/cloudfoundry/bosh-utils/blobstore"
-	"github.com/cloudfoundry/bosh-utils/crypto"
-	"github.com/cloudfoundry/bosh-utils/system"
+	"github.com/EngineerBetter/bosh-utils/blobstore"
+	"github.com/EngineerBetter/bosh-utils/crypto"
+	"github.com/EngineerBetter/bosh-utils/system"
 )
 
 type FakeBlobManagerInterface struct {

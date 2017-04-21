@@ -1,9 +1,9 @@
 package blobstore
 
 import (
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshcrypto "github.com/EngineerBetter/bosh-utils/crypto"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
 )
 
 type retryableBlobstore struct {

@@ -11,10 +11,10 @@ import (
 
 	"strings"
 
-	. "github.com/cloudfoundry/bosh-utils/fileutil"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	. "github.com/EngineerBetter/bosh-utils/fileutil"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
+	fakesys "github.com/EngineerBetter/bosh-utils/system/fakes"
 )
 
 func fixtureSrcDir() string {

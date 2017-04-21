@@ -14,8 +14,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	. "github.com/cloudfoundry/bosh-utils/system"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	. "github.com/EngineerBetter/bosh-utils/system"
 )
 
 var _ = Describe("execProcess", func() {

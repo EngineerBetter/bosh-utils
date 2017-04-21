@@ -7,8 +7,8 @@ import (
 	"errors"
 	"regexp"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
 	"net/url"
 )
 

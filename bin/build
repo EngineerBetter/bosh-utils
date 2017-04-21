@@ -20,4 +20,4 @@ if [[ "$GOOS" == 'linux' ]]; then
   export GOTOOLDIR=$(go env GOROOT)/pkg/linux_amd64
 fi
 
-$bin/go build -o $bin/../out/verify-multidigest github.com/cloudfoundry/bosh-utils/main
+$bin/go build -o $bin/../out/verify-multidigest github.com/EngineerBetter/bosh-utils/main

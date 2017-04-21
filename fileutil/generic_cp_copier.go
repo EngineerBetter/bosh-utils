@@ -8,9 +8,9 @@ import (
 
 	"github.com/bmatcuk/doublestar"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
 )
 
 const genericCpCopierLogTag = "genericCpCopier"

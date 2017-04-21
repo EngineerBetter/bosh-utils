@@ -33,13 +33,13 @@ resources:
   - name: bosh-utils
     type: git
     source:
-      uri: https://github.com/cloudfoundry/bosh-utils
+      uri: https://github.com/EngineerBetter/bosh-utils
       branch: develop
 
   - name: bosh-utils-promoted
     type: git
     source:
-      uri: git@github.com:cloudfoundry/bosh-utils.git
+      uri: git@github.com:EngineerBetter/bosh-utils.git
       branch: master
       private_key: {{concourse_github_private_key}}
 

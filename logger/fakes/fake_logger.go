@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/bosh-utils/logger"
+	"github.com/EngineerBetter/bosh-utils/logger"
 )
 
 type FakeLogger struct {

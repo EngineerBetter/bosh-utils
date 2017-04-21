@@ -6,9 +6,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
 
-	. "github.com/cloudfoundry/bosh-utils/retrystrategy"
+	. "github.com/EngineerBetter/bosh-utils/retrystrategy"
 )
 
 var _ = Describe("UnlimitedRetryStrategy", func() {

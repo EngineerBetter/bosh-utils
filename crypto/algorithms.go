@@ -8,7 +8,7 @@ import (
 	"hash"
 	"io"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
 )
 
 var (

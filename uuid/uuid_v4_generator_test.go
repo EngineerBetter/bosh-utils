@@ -6,7 +6,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/uuid"
+	. "github.com/EngineerBetter/bosh-utils/uuid"
 )
 
 func init() {

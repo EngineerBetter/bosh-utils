@@ -7,12 +7,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/logger/file"
+	. "github.com/EngineerBetter/bosh-utils/logger/file"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
 
-	fakeboshsys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	fakeboshsys "github.com/EngineerBetter/bosh-utils/system/fakes"
 )
 
 func expectedLogFormat(tag, msg string) string {

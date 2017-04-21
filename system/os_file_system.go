@@ -13,8 +13,8 @@ import (
 
 	"github.com/bmatcuk/doublestar"
 	fsWrapper "github.com/charlievieth/fs"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshlog "github.com/EngineerBetter/bosh-utils/logger"
 )
 
 type osFileSystem struct {

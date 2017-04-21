@@ -4,8 +4,8 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-utils/blobstore"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
+	"github.com/EngineerBetter/bosh-utils/blobstore"
+	boshcrypto "github.com/EngineerBetter/bosh-utils/crypto"
 )
 
 type FakeDigestBlobstore struct {

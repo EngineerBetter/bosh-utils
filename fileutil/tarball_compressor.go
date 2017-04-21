@@ -1,8 +1,8 @@
 package fileutil
 
 import (
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	bosherr "github.com/EngineerBetter/bosh-utils/errors"
+	boshsys "github.com/EngineerBetter/bosh-utils/system"
 )
 
 type tarballCompressor struct {

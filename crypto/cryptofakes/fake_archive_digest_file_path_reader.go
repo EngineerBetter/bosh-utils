@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/cloudfoundry/bosh-utils/crypto"
-	"github.com/cloudfoundry/bosh-utils/system"
+	"github.com/EngineerBetter/bosh-utils/crypto"
+	"github.com/EngineerBetter/bosh-utils/system"
 )
 
 type FakeArchiveDigestFilePathReader struct {
